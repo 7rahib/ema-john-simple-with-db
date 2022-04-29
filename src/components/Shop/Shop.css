@@ -29,6 +29,10 @@
     color: white;
 }
 
+.pagination .selected {
+    background-color: rgb(168, 110, 4);
+}
+
 .pagination button:hover {
     background-color: rgb(168, 110, 4);
 }
