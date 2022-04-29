@@ -9,7 +9,7 @@ import './Header.css';
 const Header = () => {
     const [user] = useAuthState(auth);
 
-    const handleSignOut = () =>{
+    const handleSignOut = () => {
         signOut(auth);
     }
 
@@ -23,10 +23,10 @@ const Header = () => {
                 <Link to="/about">About</Link>
                 {
                     user ?
-                    <button onClick={handleSignOut}>Sign out</button>
-                    :
-                    <Link to="/login">Login</Link>}
-                
+                        <button className='signoutbtn' onClick={handleSignOut}>Sign out</button>
+                        :
+                        <Link to="/login">Login</Link>}
+
             </div>
         </nav>
     );

@@ -1,3 +1,20 @@
-.review-items-container{
+.review-items-container {
     margin: 0 auto;
+}
+
+.shippingbtn {
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 8px;
+    background-color: orange;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.shippingbtn:hover {
+    background-color: rgb(168, 110, 4);
 }
